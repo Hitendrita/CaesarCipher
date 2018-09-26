@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="sheets/style.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <title></title>
+
+</head>
+<body>
+        <body background="img3.jpg">
+    <div class ="header">
+        <h1><B><center><font color="white">CAESAR CIPHER</font></center></B></h1>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+        <div class=" col-sm-6 col-sm-offset-3 encryptionDIV">
+        <label><font color="white"> - Message - </font></label>
+        <textarea class="form-control" type="text" id="input"> </textarea>
+        <br />
+        <br>
+
+            <label><font color="white"> - Key - </font></label>
+            <br />
+            <br>
+            <input class="form-control" type="number" min="0" max="25" value="3" tabindex="2" id="key">
+        <br />
+        <button id="encrypt" class="btn btn-success"> Encrypt </button>
+        <button id="decrypt" class="btn btn-success">Decrypt</button>
+        </div>
+            <div class="row">
+                <div class=" bs-callout-info col-sm-6 col-sm-offset-3 content" style="background-color: white;width:200px;text-align:center;position: absolute;
+                margin-top: 350px;
+                margin-left: 500px;">
+            </div>
+        </div>
+    </div>
+    
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
